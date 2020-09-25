@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: rgb(173, 177, 177);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px solid rgb(100, 98, 98);
+    width: 306px;
+    height: 306px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background-color: rgb(177, 174, 174);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.cockpit{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reset{
+    background-color: rgb(236, 70, 70);
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.screen, #winner{
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
